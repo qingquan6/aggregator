@@ -1,7 +1,5 @@
 name: checkin
-on:
-  schedule:
-    - cron: "45 02 * * *"
+on:push
 
 jobs:
   sync_with_upstream:
